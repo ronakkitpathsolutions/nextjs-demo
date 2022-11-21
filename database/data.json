@@ -1,0 +1,37 @@
+{
+    "header":{
+        "navbar":{
+            "logo": "Ronak",
+            "links": [
+                "Home",
+                "About",
+                "Skills",
+                "Works"
+            ],
+            "contact": "Contact"
+        }
+    },
+    "footer":{
+        "socials":[
+            {
+                "id":"instagram",
+                "link":""
+            },
+            {
+                "id":"medium",
+                "link":""
+            },
+            {
+                "id":"stackoverflow",
+                "link":""
+            },
+            {
+                "id":"github",
+                "link":""
+            }
+        ]
+    },
+    "container":{
+
+    }
+}

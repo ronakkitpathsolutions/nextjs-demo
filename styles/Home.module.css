@@ -108,6 +108,33 @@
   margin-left: 0.5rem;
 }
 
+.banner {
+  animation: UpDown 1200ms linear infinite;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 45%) scale(1.5);
+}
+
+.main_banner{
+  height: calc(85vh - 80px)!important;
+}
+
+.contact_us{
+  filter: grayscale(0) contrast(1.2) opacity(0.4);
+}
+
+@keyframes UpDown {
+  0% {
+    bottom: -0.25rem;
+  }
+  50% {
+    bottom: 0.75em;
+  }
+  100% {
+    bottom: -0.25rem;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

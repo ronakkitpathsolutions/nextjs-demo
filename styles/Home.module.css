@@ -112,7 +112,7 @@
   animation: UpDown 1200ms linear infinite;
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 45%) scale(1.5);
+  transform: translate(-50%, 45%);
 }
 
 .main_banner{
@@ -135,10 +135,14 @@
   }
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 640px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .banner{
+    transform: translate(-50%, 0%) scale(1.25);
   }
 }
 
